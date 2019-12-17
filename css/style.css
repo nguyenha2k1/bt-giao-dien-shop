@@ -7,14 +7,11 @@
 #box{
 	/*background-color: green;*/
 	width: 100%;
-	margin: 0;
+	height: auto;
 	padding:0;
 
 }
-#page{
-	width: 100%;
-	height: auto;
-}
+
 
 /*top*/
 #top-page{
@@ -69,19 +66,22 @@
 }
 
 /*body-page*/
-
-
+#page{
+	width: 1100px;
+	height: auto;
+	margin: 0 auto;
+	border: 2px solid #D1D1D1;
+}
 
 #body-page{
 	
-	width: 1100px;
-	height: 100px;
+	width: 100%;
+	height: auto;
 	margin: 0 auto;
-	/*background-color: red;*/
+	background-color: #ffffff;
 }
 #body-top{
 	height: 35px;
-	background-color: green;
 }
 #top-page{
 	margin: 0px auto;
@@ -138,7 +138,7 @@
 	height: 13px;
 	margin-top: 3px;
 }
-#body-right h3,#body-right span{
+#body-right h3,#body-right span,#body-left a{
 	text-align: left;
 	font-family: arial;
 }
@@ -157,3 +157,71 @@
 	float: left;
 	margin: 0 0 0 4px;
 }
+
+/*logo-search*/
+#logo-search{
+	width: 100%;
+	height: 100px;
+}
+#logo{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+#logo img{
+	margin-top: 5px;
+}
+#search{
+	position: relative;
+	left: 900px;
+	top: -35px;
+}
+#search-left{
+	float: left;
+}
+#search-left input{
+	-webkit-border-radius: 20px 0 0 20px;
+	border-radius: 20px 0 0 20px;
+	height: 20px;
+}
+#search-right{
+	float: left;
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	-webkit-border-radius: 0 20px 20px 0;
+	border-radius: 0 20px 20px 0;
+}
+#search-right img{
+	width: 12px;
+	height: 12px;
+	margin: 5px 0 0 5px;
+}
+
+/*menu ngang*/
+#main-nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;/*xóa dấu chấm */
+	background: #ffffff;
+	border-bottom: 1px solid black;/*đường kẻ dưới*/
+	padding-left: 50px;
+}
+#main-nav ul li{
+	display: inline-block; /*hiện ngang*/
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#main-nav ul li a{
+	font-family: Arial;
+	text-decoration: none;/*bỏ gạch chân*/
+	padding: 10px;
+	display: block; /*chuyển thành khối*/
+	color: black;
+}
+#main-nav ul li a:hover, #main-nav ul li.active a{
+	background-color: black;
+	color: #fff;
+}
+<
