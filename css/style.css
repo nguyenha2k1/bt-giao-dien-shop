@@ -7,7 +7,6 @@
 #box{
 	/*background-color: green;*/
 	width: 100%;
-	height: 1500px;
 	margin: 0;
 	padding:0;
 
@@ -21,7 +20,7 @@
 #top-page{
 	margin: 0px auto;
 	width: 100%;
-	height: auto;
+	height: 1000px;
 	background-color: #bfbfbf;
 }
 #top{
@@ -40,6 +39,8 @@
 	text-align: center;
 	width: 25%;
 	margin: 13px 10px 13px 60px;
+}
+.hkt{
 	border-right: 1px solid #fff;
 }
 #top-page img{
@@ -65,4 +66,94 @@
 	text-decoration: none;
 	float: left;
 	margin: 0 0 0 12px;
+}
+
+/*body-page*/
+
+
+
+#body-page{
+	
+	width: 1100px;
+	height: 100px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+#body-top{
+	height: 35px;
+	background-color: green;
+}
+#top-page{
+	margin: 0px auto;
+	width: 100%;
+	height: auto;
+	background-color: #bfbfbf;
+}
+#top{
+	width: 1000px;
+	margin: 0 auto
+}
+#body-left{
+	float: left;
+	color: black;
+}
+#body-left ul{
+	list-style: none;
+	padding: 0;
+	margin:8px 0 0px 20px;
+}
+#body-left li{
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 16px;
+
+}
+#body-left a{
+	text-decoration: none;
+	color: black;
+}
+#body-left ul{
+	list-style: none;
+}
+#body-right{
+	float: right;
+	
+}
+#body-right ul{
+	list-style: none;
+	padding: 0;
+	margin:8px 0 0px 0;
+}
+#body-right ul li{
+	display: inline-block;
+	text-align: left;
+	margin-right: 16px;
+}
+#body-right ul li span{
+	color: black;
+}
+#body-right img{
+	float: left;
+	width: 13px;
+	height: 13px;
+	margin-top: 3px;
+}
+#body-right h3,#body-right span{
+	text-align: left;
+	font-family: arial;
+}
+#body-right h3{
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 0;
+}
+#body-right span{
+	font-size: 11px;
+	margin: 0;
+}
+#body-right a{
+	color: #fff;
+	text-decoration: none;
+	float: left;
+	margin: 0 0 0 4px;
 }
