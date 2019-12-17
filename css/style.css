@@ -209,7 +209,7 @@
 }
 #main-nav ul li{
 	display: inline-block; /*hiện ngang*/
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -224,4 +224,34 @@
 	background-color: black;
 	color: #fff;
 }
-<
+/*khoi chinh giua*/
+
+#between{
+	height: auto;
+	margin: 25px 25px 25px 25px;
+}
+
+
+/*image lớn*/
+
+#image-big{
+
+}
+#anh1{
+	position: relative;
+	width: 780px;
+	height: 489px;
+	float: left;
+
+}
+#anh2{
+	float: right;
+	width: 239px;
+	height: 230px;
+}
+#anh3{
+	float: right;
+	width: 239px;
+	height: 230px;
+	margin-top: 25px;
+}
