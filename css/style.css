@@ -233,10 +233,6 @@
 
 
 /*image lớn*/
-
-#image-big{
-
-}
 #anh1{
 	position: relative;
 	width: 780px;
@@ -254,4 +250,27 @@
 	width: 239px;
 	height: 230px;
 	margin-top: 25px;
+}
+
+/*slideshow*/
+
+#slideshow{
+	clear: left;
+}
+#slideshow ul{
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0 0 ;
+}
+#slideshow ul li{
+	display: inline-block;
+	float: left;
+	width: 20%;
+	height: auto;
+	padding: 20px 0 20px 0;
+}
+#slideshow ul li img{
+	width: 160px;
+	height:80px;
 }
