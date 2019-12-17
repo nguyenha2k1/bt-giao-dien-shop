@@ -220,7 +220,7 @@
 	display: block; /*chuyển thành khối*/
 	color: black;
 }
-#main-nav ul li a:hover, #main-nav ul li.active a{
+#main-nav ul li a:hover{
 	background-color: black;
 	color: #fff;
 }
@@ -301,18 +301,46 @@
 
 
 /*menu mat hang*/
-.title{
+#title{
 	clear: left;
 	font-family: arial;
 	padding: 40px 0 30px 0;
 }
-.title h2{
-	padding-bottom: 8px;
+#title ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;/*xóa dấu chấm */
+	border-bottom: 1px solid #a5a4a4;
+}
+#title ul li{
+	display: inline-block; /*hiện ngang*/
+	margin-top: 50px;
+	padding-bottom: 20px;
+
+}
+#title ul li:last-child a{ /*xoa the li cuoi cung*/
+	border-right: none;
+}
+#title ul li a{
+	font-family: Arial;
 	font-size: 15px;
 	text-transform: uppercase;
-	border-bottom: 1px solid #a5a4a4; 
+	font-weight: bold;	
+	text-decoration: none;/*bỏ gạch chân*/
+	padding: 0px 20px 0 8px;
+	display: block; /*chuyển thành khối*/
+	border-right: 1px solid #a5a4a4;
+	font-size: 15px;
+	color: #7c7777;
+
+
 }
-/*dieu chinh kich thuoc*/
+#title ul li a:hover{
+	color: black;
+}
+#title ul li:hover{
+	border-bottom: 1px solid #3293ec;
+}
 .khoi{
 	float: left;
 	width: 25%;
@@ -384,6 +412,23 @@
 	margin-right: 2px;
 	border: 1px solid #bdbcbc;
 }
+#imagefull img{
+	width: 100%;
+	height: auto;
+}
+/*new2*/
 
-
+.kh{
+	float: left;
+	width: 20%;
+	height: 300px;
+	/*background-color: red;*/
+	text-align: center;
+	font-family: arial;
+}
+.kh h3{
+	
+	font-size: 13px;
+	margin: 0;
+}
 
