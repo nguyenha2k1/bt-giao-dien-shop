@@ -298,3 +298,92 @@
 	width: 310px;
 	height:210px;
 }
+
+
+/*menu mat hang*/
+.title{
+	clear: left;
+	font-family: arial;
+	padding: 40px 0 30px 0;
+}
+.title h2{
+	padding-bottom: 8px;
+	font-size: 15px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #a5a4a4; 
+}
+/*dieu chinh kich thuoc*/
+.khoi{
+	float: left;
+	width: 25%;
+	height: 300px;
+	/*background-color: red;*/
+	text-align: center;
+	font-family: arial;
+}
+
+.sanp{
+	width: 150px;
+	height: 180px;
+}
+.sao{
+	width: 60px;
+	height: 18px;
+}
+.kh2 ul li img{
+	width: 15px;
+	height: 15px;
+}
+/*end*/
+.khoi h3{
+	
+	font-size: 13px;
+	margin: 0;
+}
+.kh1 p{
+	color: red;
+	font-weight: bold;
+	margin: 0;
+	font-size: 15px;	
+}
+.kh1 strike{
+	color: #aba9a9;
+	font-size: 11px;
+}
+.kh1{
+	clear: left;
+	text-align: center;
+}
+.kh1 ul{
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0 ;
+}
+.kh1 ul li{
+	display: inline-block;
+	height: auto;
+}
+
+
+.kh2{
+	clear: left;
+	text-align: center;
+}
+.kh2 ul{
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 10px 0 0 0  ;
+}
+.kh2 ul li{
+	text-align: center;
+	display: inline-block;
+	height: auto;
+	padding:5px 5px 0px 5px;
+	margin-right: 2px;
+	border: 1px solid #bdbcbc;
+}
+
+
+
