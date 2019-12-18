@@ -345,7 +345,6 @@
 	float: left;
 	width: 25%;
 	height: 300px;
-	/*background-color: red;*/
 	text-align: center;
 	font-family: arial;
 }
@@ -422,7 +421,6 @@
 	float: left;
 	width: 20%;
 	height: 300px;
-	/*background-color: red;*/
 	text-align: center;
 	font-family: arial;
 }
@@ -431,4 +429,41 @@
 	font-size: 13px;
 	margin: 0;
 }
-
+/* lien he */
+#lienhe{
+	margin: 0px auto;
+	width: 100%;
+	height: auto;
+	font-family: arial;
+}
+#lienhe ul{
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#lienhe ul li{
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	margin: 60px;
+}
+#lienhe ul li h2{
+	color: #565656;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+#lienhe a{
+	text-decoration: none;
+}
+#lienhe ul li div{
+	text-align: center;
+}
+#lienhe ul li span{
+	width: 100%;
+}
+#lienhe ul li a{
+	width: 100%;
+	text-align: center;
+}
