@@ -581,4 +581,29 @@
 	text-align: left;
 }
 
+/*byend*/
+#byend{
+	background-color: #e3e3e3;
+	height: 45px;
+}
+#bend{
+	font-family: arial;
+	width: 1100px;
+	margin: 0 auto;
+}
+#bend img{
+	float: right;
+	margin-top: 10px;
+}
+#bend p{
+	float: left;
+	font-size: 12px;
+	color: #969696;
+	margin-top: 15px;
+}
+#bend p a{
+	color: #0679e3;
+}
+
+
 
