@@ -431,39 +431,73 @@
 }
 /* lien he */
 #lienhe{
-	margin: 0px auto;
-	width: 100%;
+	clear: left;
+	margin: 60px auto;
+	width: 86%;
 	height: auto;
 	font-family: arial;
 }
-#lienhe ul{
-	text-align: center;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-#lienhe ul li{
-	display: inline-block;
-	text-align: center;
-	width: 25%;
-	margin: 60px;
-}
-#lienhe ul li h2{
-	color: #565656;
-	margin-top: 0;
+#lienhe h2{
+	margin: 0px 0 30px 0;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 17px;
 }
 #lienhe a{
 	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	margin-bottom: 10px;
 }
-#lienhe ul li div{
+#lienhe span{
+	color: #969696;
+	font-size: 15px;
+}
+#lienhetr{
+	width: 50%;
+	height: 200px;
+	text-align: center;
+	float: left;
+	border-right: 1px solid black; 
+}
+.tr{
+	margin-bottom: 20px;
+}
+#lienheph{
+	width: 50%;
+	height: auto;
+	text-align: center;
+	float: right;
+}
+#lienheph span{
+	display: block;
+	width: 370px;
+	margin :0 0 20px 100px; 
 	text-align: center;
 }
-#lienhe ul li span{
-	width: 100%;
+#lhtext{
+	float: left;
+	width: 250px; 
+	height: 30px;
+	border: 0px;
+	background-color: #bdbdbd;
+	-webkit-border-radius: 20px 0 0 20px;
+	border-radius: 20px 0 0 20px;
 }
-#lienhe ul li a{
-	width: 100%;
-	text-align: center;
+#lhsub{
+	float: left;
+	background-color: #DA9E00; 
+	width: 100px; 
+	height: 30px;
+	border: 0px;
+	-webkit-border-radius: 0 20px 20px 0;
+	border-radius: 0 20px 20px 0;
 }
+#lh1{
+	margin-left: 100px;
+
+}
+
+/*end*/
+
+
+
